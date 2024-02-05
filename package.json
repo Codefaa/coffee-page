@@ -1,0 +1,10 @@
+{
+  "homepage": "https://Codefaa.github.io/e-commerce-fakestore",
+  "dependencies": {
+    "gh-pages": "^6.1.1"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
