@@ -641,4 +641,8 @@ footer i {
         font-size: .8rem;
     }
 
+    .sale {
+        left: 12rem;
+        padding: 1.2rem;
+    }
 }
