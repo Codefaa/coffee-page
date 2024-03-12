@@ -629,4 +629,16 @@ footer i {
         width: 300px;
     }
 
+    .price {
+        font-size: 2rem;
+    }
+    
+    .price small {
+        font-size: 1rem;
+    }
+    
+    .only {
+        font-size: .8rem;
+    }
+
 }
