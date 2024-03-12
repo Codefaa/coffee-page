@@ -643,6 +643,7 @@ footer i {
 
     .sale {
         left: 12rem;
-        padding: 1.2rem;
+        padding: 0px;
+        overflow: hidden;
     }
 }
