@@ -501,8 +501,17 @@ footer i {
     gap: .5rem;
 }
 
-@media screen and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px) {
+    
+    .hero_img img {
+        width: 300px;
+    }
+}
 
+@media screen and (max-width: 768px) {
+    .hero_img img {
+        width: 300px;
+    }
     .hero {
         height:auto;
     }
@@ -520,11 +529,10 @@ footer i {
         padding-top: 0;
     }
 
-    .hero_img img {
-        max-width: 100%;
-    }
+
 
     .hero_main {
+        flex-direction: column;
         padding-inline: 2rem;
         padding-top: 3rem;
     }
@@ -615,6 +623,10 @@ footer i {
 
     .hero_main {
         flex-direction: column;
+    }
+
+    .hero_img img {
+        width: 300px;
     }
 
 }
